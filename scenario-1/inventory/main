@@ -1,0 +1,10 @@
+[all]
+node001.b9cluster.local ansible_host=192.168.191.140
+node002.b9cluster.local ansible_host=192.168.191.141
+node003.b9cluster.local ansible_host=192.168.191.142
+[app]
+node002.b9cluster.local ansible_host=192.168.191.141
+[db]
+node003.b9cluster.local ansible_host=192.168.191.142
+[lb]
+node001.b9cluster.local ansible_host=192.168.191.140

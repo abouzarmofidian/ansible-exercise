@@ -1,0 +1,129 @@
+2023-05-09 16:27:24,341 p=78945 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: root@192.168.191.141: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-09 16:27:24,375 p=78945 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: root@192.168.191.142: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-09 16:27:27,303 p=78945 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: No route to host",
+    "unreachable": true
+}
+2023-05-09 16:28:19,985 p=79443 u=ubuntu n=ansible | Using /home/ubuntu/ansible-exercise/scenario-1/ansible.cfg as config file
+2023-05-09 16:28:20,249 p=79443 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: root@192.168.191.142: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-09 16:28:20,249 p=79443 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: root@192.168.191.141: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-09 16:28:23,253 p=79443 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: No route to host",
+    "unreachable": true
+}
+2023-05-09 16:30:55,114 p=80154 u=ubuntu n=ansible | Using /home/ubuntu/ansible-exercise/scenario-1/ansible.cfg as config file
+2023-05-09 16:30:55,332 p=80154 u=ubuntu n=ansible | node002 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: root@node002: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-09 16:30:55,333 p=80154 u=ubuntu n=ansible | node003 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: root@node003: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-09 16:30:58,284 p=80154 u=ubuntu n=ansible | node001 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host node001 port 22: No route to host",
+    "unreachable": true
+}
+2023-05-09 16:31:26,525 p=80321 u=ubuntu n=ansible | Using /home/ubuntu/ansible-exercise/scenario-1/ansible.cfg as config file
+2023-05-09 16:31:28,392 p=80321 u=ubuntu n=ansible | node003 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-09 16:31:28,450 p=80321 u=ubuntu n=ansible | node002 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-09 16:31:29,707 p=80321 u=ubuntu n=ansible | node001 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host node001 port 22: No route to host",
+    "unreachable": true
+}
+2023-05-09 16:31:50,360 p=80511 u=ubuntu n=ansible | Using /home/ubuntu/ansible-exercise/scenario-1/ansible.cfg as config file
+2023-05-09 16:31:51,182 p=80511 u=ubuntu n=ansible | node002.b9cluster.local | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-09 16:31:51,200 p=80511 u=ubuntu n=ansible | node003.b9cluster.local | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-09 16:31:53,539 p=80511 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: No route to host",
+    "unreachable": true
+}
+2023-05-09 16:32:06,480 p=80680 u=ubuntu n=ansible | Using /home/ubuntu/ansible-exercise/scenario-1/ansible.cfg as config file
+2023-05-09 16:32:07,119 p=80680 u=ubuntu n=ansible | node003.b9cluster.local | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-09 16:32:07,146 p=80680 u=ubuntu n=ansible | node002.b9cluster.local | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-05-09 16:32:09,674 p=80680 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: No route to host",
+    "unreachable": true
+}
+2023-05-09 16:33:03,557 p=81061 u=ubuntu n=ansible | node002.b9cluster.local | FAILED | rc=2 >>
+grep: /etc/iso-release: No such file or directorynon-zero return code
+
+2023-05-09 16:33:03,558 p=81061 u=ubuntu n=ansible | node003.b9cluster.local | FAILED | rc=2 >>
+grep: /etc/iso-release: No such file or directorynon-zero return code
+
+2023-05-09 16:33:06,188 p=81061 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: No route to host",
+    "unreachable": true
+}
+2023-05-09 16:33:35,410 p=81251 u=ubuntu n=ansible | node002.b9cluster.local | CHANGED | rc=0 >>
+NAME="Ubuntu"
+
+2023-05-09 16:33:35,420 p=81251 u=ubuntu n=ansible | node003.b9cluster.local | CHANGED | rc=0 >>
+NAME="Ubuntu"
+
+2023-05-09 16:33:38,069 p=81251 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: No route to host",
+    "unreachable": true
+}
