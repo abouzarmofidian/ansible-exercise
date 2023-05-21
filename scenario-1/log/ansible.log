@@ -127,3 +127,164 @@ NAME="Ubuntu"
     "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: No route to host",
     "unreachable": true
 }
+2023-05-21 10:11:23,125 p=18679 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:11:23,134 p=18679 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.142 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:11:23,135 p=18679 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.141 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:12:31,652 p=19011 u=ubuntu n=ansible | [WARNING]: Found both group and host with same name: workstation
+
+2023-05-21 10:12:31,988 p=19011 u=ubuntu n=ansible | workstation | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '172.16.189.245' (ED25519) to the list of known hosts.\r\nubuntu@172.16.189.245: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-21 10:12:41,763 p=19011 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:12:41,779 p=19011 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.142 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:12:41,790 p=19011 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.141 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:14:16,568 p=19424 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:14:16,573 p=19424 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.141 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:14:16,587 p=19424 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.142 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:25:18,005 p=21284 u=ubuntu n=ansible | worker2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ubuntu@172.16.189.192: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-21 10:25:27,901 p=21284 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:25:27,904 p=21284 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.141 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:25:27,916 p=21284 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.142 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:26:05,244 p=21509 u=ubuntu n=ansible | openstack | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ubuntu@172.16.189.192: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-21 10:26:15,138 p=21509 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:26:15,152 p=21509 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.141 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:26:15,157 p=21509 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.142 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:28:47,509 p=22074 u=ubuntu n=ansible | openstack | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ubuntu@172.16.189.192: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-21 10:28:56,533 p=22074 u=ubuntu n=ansible |  [ERROR]: User interrupted execution
+
+2023-05-21 10:29:10,872 p=22245 u=ubuntu n=ansible | openstack | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ubuntu@172.16.189.192: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-21 10:29:20,748 p=22245 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:29:20,766 p=22245 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.141 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:29:20,774 p=22245 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.142 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:31:18,789 p=22754 u=ubuntu n=ansible | Using /home/ubuntu/ansible-exercise/scenario-1/ansible.cfg as config file
+2023-05-21 10:31:19,084 p=22754 u=ubuntu n=ansible | openstack | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ubuntu@172.16.189.192: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-21 10:31:28,918 p=22754 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:31:29,124 p=22754 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.141 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:31:29,212 p=22754 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.142 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:34:55,209 p=23459 u=ubuntu n=ansible | Using /home/ubuntu/ansible-exercise/scenario-1/ansible.cfg as config file
+2023-05-21 10:34:55,553 p=23459 u=ubuntu n=ansible | openstack | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ubuntu@172.16.189.192: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-21 10:35:05,424 p=23459 u=ubuntu n=ansible | node001.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.140 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:35:05,533 p=23459 u=ubuntu n=ansible | node002.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.141 port 22: Connection timed out",
+    "unreachable": true
+}
+2023-05-21 10:35:05,572 p=23459 u=ubuntu n=ansible | node003.b9cluster.local | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.191.142 port 22: Connection timed out",
+    "unreachable": true
+}

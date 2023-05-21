@@ -1,7 +1,10 @@
 [all]
+openstack ansible_host=172.16.189.192
 node001.b9cluster.local ansible_host=192.168.191.140
 node002.b9cluster.local ansible_host=192.168.191.141
 node003.b9cluster.local ansible_host=192.168.191.142
+[jenkins]
+openstack ansible_host=172.16.189.192
 [app]
 node002.b9cluster.local ansible_host=192.168.191.141
 [db]
